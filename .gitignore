@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build and output directories
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+
+# Logs and runtime data
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cloudflared binaries/logs (if dynamic or generated)
+cloudflared
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+cloudflared
+node_modules/
+.env
+.env.*
